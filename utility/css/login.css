@@ -9,5 +9,40 @@ and open the template in the editor.
 */
 
 body{
-    background-color: #cccccc;
+    background-color: rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+
+form{
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 5px;
+    margin: 10px auto;
+}
+
+input[type="text"],[type="password"]{
+    display: block;
+    margin-bottom: 5px;
+    width: 290px;
+}
+
+input[type="text"]:focus,[type="password"]:focus{
+    border: 1px solid #990000;
+}
+
+input[type="submit"]{
+    margin-left: 65px;
+}
+
+input[type="submit"],[type="reset"]{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    width: 80px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #ffffff;
 }
