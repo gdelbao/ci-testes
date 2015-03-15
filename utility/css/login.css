@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 body{
-    background-color: rgba(0,0,0,0.1);
+    /*background-color: rgba(0,0,0,0.1);*/
 }
 
 h1{
@@ -20,14 +20,21 @@ h1{
 form{
     width: 300px;
     border: 1px solid rgba(0,0,0,0.5);
-    padding: 5px;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+    padding: 30px;
     margin: 10px auto;
+}
+
+label{
+    
 }
 
 input[type="text"],[type="password"]{
     display: block;
     margin-bottom: 5px;
+    margin-top: 5px;
     width: 290px;
+    height: 20px;
 }
 
 input[type="text"]:focus,[type="password"]:focus{
@@ -43,6 +50,15 @@ input[type="submit"],[type="reset"]{
     margin-bottom: 5px;
     width: 80px;
     border-style: solid;
-    border-color: #000000;
+    border-color: #999999;
     background-color: #ffffff;
+}
+
+input[type="submit"]:hover,[type="reset"]:hover{
+    border-color: #000000;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
 }

@@ -18,5 +18,9 @@
             <input type="submit" value="Entrar"/>
             <input type="reset" value="Cancelar"/>
         </form>
+        
+        <footer>
+            <p> &copy; Gabriel Delbão de Oliveira - 2015</p>
+        </footer>
     </body>
 </html>
