@@ -7,14 +7,14 @@
     </head>
     <body>
         <h1>Login de Usuário</h1>
-        <form method="post" action="">
             <?php
+            echo form_open('login/valida');
             echo validation_errors('<p>','</p>')
             ?>
             <label for="txtLogin">Login</label>
-            <input type="text" name="txtLogin" required="required"/>
+            <input type="text" name="txtLogin"/>
             <label for='txtSenha'>Senha</label>
-            <input type="password" name="txtSenha" required="required"/>
+            <input type="password" name="txtSenha"/>
             <input type="submit" value="Entrar"/>
             <input type="reset" value="Cancelar"/>
         </form>
