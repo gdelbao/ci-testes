@@ -10,3 +10,6 @@ application/logs/*
 
 # Metadados do Netbeans
 nbproject/*
+
+# Settings do Visual Studio Code
+.settings/*
